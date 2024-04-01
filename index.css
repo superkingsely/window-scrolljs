@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.app{
+    min-height: 100vh;
+    background-color: black;
+}
+header{
+    min-height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header-content{
+    /* min-height: 10vh; */
+    max-width: 1200px;
+    background-color: blueviolet;
+}
+nav ul{
+    display:flex ;
+    gap: 20px;
+}
+nav ul a.active{
+    background-color: aliceblue;
+}
+main{
+    min-height: 100vh;
+    border: 5px solid white;
+}
+section{
+    border: 5px solid white;
+    min-height: 100vh;
+}
+.app-content{
+    min-height: 100vh;
+    max-width: 1200px;
+}
+.home-content{
+    background-color: red;
+}
+.about-content{
+    background-color:greenyellow;
+}
+.contact-content{
+    background-color: blue;
+}
